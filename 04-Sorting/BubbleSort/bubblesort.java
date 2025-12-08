@@ -1,3 +1,4 @@
+package BubbleSort;
 import java.util.Arrays;
 
 public class bubblesort {
@@ -5,7 +6,7 @@ public class bubblesort {
         int[] arr = {5, 4, 3, 2, 1};
         bubble(arr);
         System.out.println(Arrays.toString(arr));
-        
+
     }
 
     static void bubble(int[] arr) {
